@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>Bill calculator</title> 
+</head>
+<body>
+<script src="./1.js"></script>>
+Bill Calculator
+<p>----------------------------</p>
+<p>person </p>
+name: <input type="text" id="name" value="Mickey"><br>
+movein: <input type="text" id="movein" value="20201001"><br>
+moveout: <input type="text" id="moveout" value="20201101"><br>
+<p>----------------------------</p>
+<p>bill</p>
+name:<input type="text" id="billtype" value="gas"><br>
+start: <input type="text" id="start" value="20201001"><br>
+end: <input type="text" id="end" value="20201201"><br>
+price: <input type="number" id="price" value=19.00><br>
+<p>----------------------------</p>
+<button id="submit1" onclick="add(0)"> Person </button>
+<button id="submit2" onclick="add(1)"> Bill </button>
+<button id="calculate" onclick="calculate()"> Calculate </button>
+<p>----------------------------</p>
+<p id="1" style="color:blue;">What you added will be displayed here</p>
+<p>database below</p>
+<p>----------------------------</p>
+</body>
+</html>
